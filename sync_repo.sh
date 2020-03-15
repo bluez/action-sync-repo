@@ -33,5 +33,6 @@ git remote -v
 
 echo "Push upstream/$SRC_BRANCH to origin/$DEST_BRANCH"
 git push origin "refs/remotes/upstream/$SRC_BRANCH:refs/heads/$DEST_BRANCH" -f
+git push origin "refs/tags/*" -f
 git remote rm upstream
 git remote -v
