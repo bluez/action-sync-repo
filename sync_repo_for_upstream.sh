@@ -15,9 +15,6 @@ echo "DEST_BRANCH=$DEST_BRANCH"
 echo "GITHUB_ACTOR=$GITHUB_ACTOR"
 echo "BASEDIR=$BASEDIR"
 
-git config user.name "$GITHUB_ACTOR"
-git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
-
 WORK_DIR=$(pwd)/workdir
 
 echo "##### Clone destination repo"
